@@ -1,0 +1,20 @@
+{
+  "name": "wfrp4e-drag-ruler-integration",
+  "title": "WFRP4E Drag Ruler Integration",
+  "description": "Adds wfrp4e speed for walk and run",
+  "author": "Tylwyn",
+  "version": "1.0.0",
+  "minimumCoreVersion": "9",
+  "url": "https://github.com/achetzel/wfrp4e-drag-ruler-integration",
+  "download": "https://github.com/Tnoin/shadowrun-drag-ruler-integration/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/Tnoin/shadowrun-drag-ruler-integration/main/module.json",
+  "compatibleCoreVersion":"9",
+  "dependencies": [
+    {
+      "name": "drag-ruler",
+      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-drag-ruler/master/module.json"
+    }],
+    "scripts": [
+      "scripts/hook.js"
+    ]
+}
